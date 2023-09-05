@@ -12,7 +12,7 @@ from keras.preprocessing import image
 model = load_model("model.h5")  # load your model trained on your dataset from your system 
 
 face_cas = cv2.CascadeClassifier(
-    "Haarcascade\haarcascade_frontalface_default.xml")  # load haarcascade_frontalface_default.xml file form your system as given in git hub
+    "haarcascade_frontalface_default.xml")  # load haarcascade_frontalface_default.xml file form your system as given in git hub
 
 
 def face_fun(img):
