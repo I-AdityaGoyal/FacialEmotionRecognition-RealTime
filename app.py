@@ -6,7 +6,7 @@ from keras.models import load_model
 from PIL import Image
 
 # Load your model and face cascade
-model = load_model("model.h5")
+model = load_model("model.h5") # Make Sure you have your trained model on your data in the same Dir.
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 # Streamlit UI
