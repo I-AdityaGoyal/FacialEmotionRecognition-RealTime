@@ -1,12 +1,13 @@
 # Facial Recognition and Emotion Analysis in Real-Time
 
-Real-time facial recognition and emotion analysis project using transfer learning with VGG16 for feature extraction and deep face for emotional analysis. This project utilizes OpenCV to process video feeds and analyze emotions in real-time.
+This is a real-time facial recognition and emotion analysis project using transfer learning with VGG16 for feature extraction and deep face for emotional analysis. It utilizes OpenCV to process video feeds and analyze emotions in real-time.
 
 ## Folder Structure
 
 ```plaintext
 |-- haarcascade_frontalface_default.xml
 |-- FacialEmotionRecognition.py
+|-- model.h5 # Make sure you add your model in the Directory!
 |-- README.md
 |-- requirements.txt
 ```
